@@ -3,10 +3,18 @@
 ### get
 GET {{server}}/api
 
-### post
+### post valid
 POST {{server}}/api
 content-type: application/json
 
 {
     "message": "Like && Subscribe 🌹"
+}
+
+### post invalid
+POST {{server}}/api
+content-type: application/json
+
+{
+    "massage": "Like && Subscribe 🌹"
 }
