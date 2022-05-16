@@ -1,0 +1,12 @@
+@server = http://localhost:8080
+
+### get
+GET {{server}}/api
+
+### post
+POST {{server}}/api
+content-type: application/json
+
+{
+    "message": "Like && Subscribe 🌹"
+}
